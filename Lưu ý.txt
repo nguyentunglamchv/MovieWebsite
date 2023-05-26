@@ -1,0 +1,32 @@
+﻿
+
+* Thông tin thanh toán VNPAY
+- Ngân hàng	NCB
+- Số thẻ		9704198526191432198
+- Tên chủ thẻ	NGUYEN VAN A
+- Ngày phát hành	07/15
+- Mật khẩu OTP	123456
+
+Hướng dẫn cài đặt:
+
+B1: Tải và cài đặt composer tại https://getcomposer.org/download/
+
+B2: Tải và cài đặt xampp tại https://www.apachefriends.org/download.html
+
+B3: Mở xampp tại địa chỉ C:\xampp\xampp-control.exe và start Apache + MySQL
+
+B4: Copy file source vừa tải vào C:\xampp\htdocs hoặc nếu bạn cài đặt xampp ở ổ đĩa khác thì bỏ vào đúng đường dẫn (Ổ đĩa):\xampp\htdocs
+
+B5: Giải nén source code bằng lệnh Extract Here
+
+B6: Vào thư mục MinMovies, di chuyển (cut) thư mục webxemphim vào thư mục htdocs
+
+B7: Vào localhost://phpmyadmin và Tạo mới (New) ở góc trái trên màn hình
+
+B8: Đặt Database name là webxemphim với loại là utf8_general_ci, chọn Create
+
+B9: Vào CSDL webxemphim mới tạo và chọn tab Import, chọn file hoặc kéo thả file webxemphim.sql trong thư mục webxemphim vào
+
+B10: Vào thư mục source code và mở command line lên và gõ lệnh "composer install" và enter để chạy lệnh, đợi khi lệnh chạy xong
+
+B11: Vào đường dẫn http://localhost/webxemphim/ để chạy code, done
